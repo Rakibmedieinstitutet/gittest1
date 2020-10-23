@@ -11,6 +11,7 @@
           Porro, voluptatem!
 
 
+Lokalt: 
           // vem är jag ??
 
           git config --global user.name "ditt namn"
@@ -18,13 +19,34 @@
 
 
        some changes 
-          -  git init
-          -  git add   . 
-          -  git commit -m " msg"
+          -  git init   //en gång per projekt 
 
-          -  git status 
+
+          // varje gång man gör något ändring:
+          -  git add   .   // varje gång man gör något ändring
+          -  git commit -m " msg"  // // varje gång man gör något ändring
+
+          -  git status  // för att se vad som ska sparas   grön filerna sparas  , röd filerna sparas inte
           
-          changing again something to show in git log
+         
+          - git log  // för att kunna se vem har ändrat på projektet
+
+
+
+         
+          // Man måste varifera sig första gången man lägger till något i github
+                   //med github username och lösenord
+  
+Remote/ Moln: github.com
+     en gång per projekt: 
+
+       - git remote add origin https://github.com/Rakibmedieinstitutet/gittest1.git  
+                                       // git remote remove origin   : ifall man vill ändra remote repo/projektmapp och sen man lägger till : git remote add origin https://...... 
+       - git branch -M main
+
+    Varje gång man ändrar något: 
+         - git push origin main
+
 
          
      </p>
